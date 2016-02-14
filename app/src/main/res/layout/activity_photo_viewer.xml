@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.samples.vision.face.photo.FaceView
+        android:id="@+id/faceView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <com.google.android.gms.samples.vision.face.photo.FaceView
+        android:id="@+id/faceView2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <com.google.android.gms.samples.vision.face.photo.ModifiedFaceView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/modifiedView"></com.google.android.gms.samples.vision.face.photo.ModifiedFaceView>
+
+</LinearLayout>
